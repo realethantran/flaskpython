@@ -3,26 +3,45 @@
 
 {% block body %}
     <!-- Start of body content specific to page -->
-    <table>
-        <tr>
-            <th>Ethan Tran</th>
-          </tr>
-          <tr>
-            <td> 
-                I was born and raised in San Diego. In my spare time I like to watch videos on various topics such as finance, cars, and history. I also enjoy going to the beach as well as spending time with my family and friends.
-            </td>
-          </tr>
-            <th>My Blog</th>
-            <td>
-              <a href="{{site.baseurl}}https://realethantran.github.io/fastpages_EthanT/">
-              </a>
-            </td>
-          </td>
-        </tr>
-            <th>My email</th>
-        <td>
-        @etran8@gmail.com
-        </td>
-      </td>
-        </table>
+    <div class="px-5 py-5 mx-auto">
+        <h1 class="text-white"><strong>Ethan Tran</strong></h1>
+        <div class = "row">
+            <div class = "col-4" height = "100px">
+                <div class = "card">
+                    <div class = "card-body">
+                    <h5 class = "card-title">My Blog</h5>
+                    <a href="https://realethantran.github.io/fastpages_EthanT/" class = "card-text">Click here!</a>
+                    <div></div>
+                    <body>This is where I make posts about school and most importantly my code!</body>
+                    <img src = "https://fastpages.fast.ai/images/logo.png" width = "275">
+                    <img src = "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width = "275">
+                    </div>
+                </div>
+            </div>
+            <div class = "col-4" height = "100px">
+                <div class = "card">
+                    <div class = "card-body">
+                    <h5 class = "card-title">Introduction</h5>
+                    <a href="https://realethantran.github.io/fastpages_EthanT/" class = "card-text"></a>
+                    <div></div>
+                    <body>Hello, I am Ethan and I was born and raised in San Diego. In my spare time I like to watch videos on various topics such as finance, cars, and history. I also enjoy going to the beach as well as spending time with my family and friends.</body>
+                    <img src = "https://realethantran.github.io/fastpages_EthanT/IMG_0439.JPG" width = "250">
+                    <body></body>
+                    </div>
+                </div>
+            </div>
+            <div class = "col-4" height = "100px">
+                <div class = "card">
+                    <div class = "card-body">
+                    <h5 class = "card-title">My Game</h5>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class = "card-text">Click here! :)</a>
+                    <a href="https://studio.code.org/projects/applab/sgGMqBSH3_vO6Jvb6YTzOXWet7vAw5LuUewhpiJpcZo" class = "card-text">Or here :D</a>
+                    <div></div>
+                    <body>This is my game made in AppLab. It is a personality quiz that is capable of keeping the records (data storage) of the names and results of those who take it</body>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
 {% endblock %}
