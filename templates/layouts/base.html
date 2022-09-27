@@ -47,10 +47,10 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
 </body>
 
 {% block background %}
-    <script src="{{ url_for('static', filename='js/three.r119.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/vanta.birds.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vanta.waves.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vanta.topology.min.js') }}"></script>
     <script>
-        VANTA.BIRDS({
+        VANTA.TOPOLOGY({
             el: "body",
             mouseControls: true,
             touchControls: true,
