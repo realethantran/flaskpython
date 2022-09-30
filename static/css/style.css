@@ -24,6 +24,7 @@ button{
     width: 200px;
     margin: 35; 
     padding: 0;
+    top: 250%;
     text-align: center;
     border-radius: 25px;
     font-weight: bold;
@@ -54,7 +55,7 @@ button:hover{
 .center {
     margin: 0;
     position: absolute;
-    top: 300%;
+    top: 250%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
