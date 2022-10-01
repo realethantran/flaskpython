@@ -64,8 +64,13 @@ button:hover{
     background: darkblue url("https://media.giphy.com/media/mlBDoVLOGidEc/giphy.gif") no-repeat center center;
     background-size: 10%;
     height: 100vh;
+    min-width: 929.00;
+    min-height: 929.00;
     top: -30px;
     width: 100%;
     position: fixed;
     z-index: 100;
+  }
+  .navbar-style{
+    background: blue;
   }
