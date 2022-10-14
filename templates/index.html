@@ -20,6 +20,22 @@
                                   </button>
                             </div>
                         </div> 
+                        <div class ="right-col">
+                        <div class="music-text">
+                        <p>music</p>
+                    </div>
+                        <img src="https://user-images.githubusercontent.com/109186517/193392553-7489a682-59fb-4ea5-a541-dca69572c641.png" id="icon" width = 250px>
+                        </div>
+                        <audio src="before I close my eyes.mp3" type="audio/mp3">
+                        </audio>
+                        <script>
+                            var mySong = document.getElementById("mySong");
+                            var icon = document.getElementById("icon");
+
+                            icon.onClick = function(){
+                                mySong.play();
+                            }
+                        </script>
                     <div id ="preloader"></div>
                         <script>
                             var loader = document.getElementById("preloader");

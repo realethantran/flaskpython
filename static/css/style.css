@@ -74,3 +74,17 @@ button:hover{
   .navbar-style{
     background: blue;
   }
+  .right-col{
+    position: flex;
+    margin-left:43%;
+    margin-right:auto;
+  }
+  .music-text{
+    display: absolute;
+    flex-direction: column;
+    justify-content: center;
+  }
+ #icon{
+    width:80px;
+    cursor: pointer;
+ } 
