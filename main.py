@@ -17,9 +17,9 @@ def page_not_found(e):
 def index():
     return render_template("index.html")
 
-@app.route('/test/')
-def test():
-    return render_template("test.html")
+@app.route('/animation/')
+def animation():
+    return render_template("animation.html")
     
 @app.route('/mole/')  # connects /mole/ URL to mole() function
 def mole():
